@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "CNS web server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Onkar Kale",
+  "license": "ISC",
+  "dependencies": {
+    "@byjus-orders/nexemplum": "1.0.1877",
+    "body-parser": "^1.20.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-promise-router": "^4.1.1",
+    "joi": "^17.6.0",
+    "mongodb": "^4.6.0",
+    "mongoose": "^6.3.4",
+    "pg": "^8.7.3"
+  }
+}
